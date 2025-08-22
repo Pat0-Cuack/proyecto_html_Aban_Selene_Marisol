@@ -67,23 +67,39 @@ body {
   margin-top: 90px;
 }
 
-.footer-content{
+.footer-content {
   margin-left: 150px;
-  font-size: 20px;
-    display: flex;
-    flex-direction: center;
-    gap: 70px;
+  font-size: 10px;          /* texto más chico */
+  display: flex;
+  flex-direction: row;      /* columnas en fila */
+  gap: 70px;
+  justify-content: center;  /* centra las secciones */
+  text-align: left;         /* mejor para listas y párrafos */
 }
 
-.footer-content a{
-    text-decoration: none;
-    color: inherit;
+.footer-content h4 {
+  font-size: 28px;          /* títulos más grandes */
+  margin-bottom: 10px;
 }
 
-.footer-content ul{
-    list-style: none;
-    display: inline;
+.footer-content p,
+.footer-content ul li a {
+  font-size: 17px;          /* texto normal más compacto */
+  line-height: 1.5;         /* menos espacio entre líneas */
+  text-decoration: none;
+  color: inherit;
 }
+
+.footer-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-content ul li {
+  margin-bottom: 7px;       /* poquito espacio entre enlaces */
+}
+
 
 .grid article {
   background: #fff;
