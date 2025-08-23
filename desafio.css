@@ -39,3 +39,25 @@ body {
     left: 200px;
     background-color: lightpink;
 }
+
+nav ul {
+  list-style: none;       /* Quita los puntos */
+  padding: 0;             /* Elimina el espacio interior */
+  margin: 10px 0;         /* Separa del dibujo */
+  text-align: left;     
+}
+
+nav ul li {
+  margin: 10px 0;         /* Espacio entre cada link */
+}
+
+nav ul li a {
+  text-decoration: none;  /* Saca el subrayado */
+  color: white;           
+  font-size: 18px;        /* Ajusta el tamaño de letra */
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #ffd700;         /* Un dorado al pasar el mouse */
+}
